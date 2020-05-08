@@ -33,12 +33,12 @@ export default function Logon() {
                     <h1>Faça o seu Login</h1>
                     <input
                         placeholder="Email"
-                        value={'jaque@email.com'}
+                        value={'jaquelinelaurenti@email.com'}
                         onChange={e => setEmail(e.target.value)}
                     />
                     <input
                         placeholder="Senha"
-                        value={'@1233456789'}
+                        value={'************'}
                         onChange={e => setPassword(e.target.value)}
                     />
                     

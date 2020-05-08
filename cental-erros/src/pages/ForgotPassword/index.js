@@ -21,8 +21,8 @@ export default function ForgotPassword() {
         const data = { name, email, password, confirmPassword };
 
         try {
-            const res = await api.post('user', data);
-            alert(`Seu ID de acesso: ${res.data.id}`);
+            //const res = await api.post('user', data);
+            alert(`Token enviado para o e-mail informado!`);
             history.push('/');
         }
         catch (err) {

@@ -82,7 +82,7 @@ export default function Profile() {
                     <p>{'error'}</p>
 
                     <strong>Ambiente:</strong>
-                    <p>{'Preodução'}</p>
+                    <p>{'Produção'}</p>
 
                     <strong>Log:</strong>
                     <p>{'Erro ao mudar música no Deezer'}</p>
@@ -104,13 +104,102 @@ export default function Profile() {
                     <p>{'debug'}</p>
 
                     <strong>Ambiente:</strong>
-                    <p>{'Preodução'}</p>
+                    <p>{'Produção'}</p>
 
                     <strong>Log:</strong>
                     <p>{'Erro no service.auth'}</p>
 
                     <strong>Evento:</strong>
                     <p>{'350'}</p>   
+
+                    <button onClick={() => handleDeleteError('1')} type="button">
+                        <FiTrash2 size = {20} color="#a8a8b3"/>
+                    </button>  
+
+                    <Link className="back-link" to="/errorDetails">
+                        <FiArrowRight size={20} color="#F28500" />                        
+                    </Link>
+                </li>
+
+                <li key={3}>
+                    <strong>Level:</strong>
+                    <p>{'debug'}</p>
+
+                    <strong>Ambiente:</strong>
+                    <p>{'Produção'}</p>
+
+                    <strong>Log:</strong>
+                    <p>{'Erro no debugger Service.Profile'}</p>
+
+                    <strong>Evento:</strong>
+                    <p>{'333'}</p>   
+
+                    <button onClick={() => handleDeleteError('1')} type="button">
+                        <FiTrash2 size = {20} color="#a8a8b3"/>
+                    </button>  
+
+                    <Link className="back-link" to="/errorDetails">
+                        <FiArrowRight size={20} color="#F28500" />                        
+                    </Link>
+                </li>
+
+                <li key={4}>
+                    <strong>Level:</strong>
+                    <p>{'debug'}</p>
+
+                    <strong>Ambiente:</strong>
+                    <p>{'Produção'}</p>
+
+                    <strong>Log:</strong>
+                    <p>{'Erro ao expandir imagem no Instagram'}</p>
+
+                    <strong>Evento:</strong>
+                    <p>{'1200'}</p>   
+
+                    <button onClick={() => handleDeleteError('1')} type="button">
+                        <FiTrash2 size = {20} color="#a8a8b3"/>
+                    </button>  
+
+                    <Link className="back-link" to="/errorDetails">
+                        <FiArrowRight size={20} color="#F28500" />                        
+                    </Link>
+                </li>
+
+                <li key={4}>
+                    <strong>Level:</strong>
+                    <p>{'warn'}</p>
+
+                    <strong>Ambiente:</strong>
+                    <p>{'Produção'}</p>
+
+                    <strong>Log:</strong>
+                    <p>{'Erro no debugger Service.Profile'}</p>
+
+                    <strong>Evento:</strong>
+                    <p>{'903'}</p>   
+
+                    <button onClick={() => handleDeleteError('1')} type="button">
+                        <FiTrash2 size = {20} color="#a8a8b3"/>
+                    </button>  
+
+                    <Link className="back-link" to="/errorDetails">
+                        <FiArrowRight size={20} color="#F28500" />                        
+                    </Link>
+                </li>
+
+
+                <li key={5}>
+                    <strong>Level:</strong>
+                    <p>{'error'}</p>
+
+                    <strong>Ambiente:</strong>
+                    <p>{'Dev'}</p>
+
+                    <strong>Log:</strong>
+                    <p>{'Login not found'}</p>
+
+                    <strong>Evento:</strong>
+                    <p>{'402'}</p>   
 
                     <button onClick={() => handleDeleteError('1')} type="button">
                         <FiTrash2 size = {20} color="#a8a8b3"/>

@@ -22,8 +22,8 @@ export default function Register() {
         const data = { name, email, password, confirmPassword };
 
         try {
-            const res = await api.post('user', data);
-            alert(`Seu ID de acesso: ${res.data.id}`);
+            //const res = await api.post('user', data);
+            alert(`Seu ID de acesso: ${`ID-22003`}`);
             history.push('/');
         }
         catch (err) {
