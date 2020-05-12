@@ -49,25 +49,25 @@ export default function Register() {
                 <form onSubmit={handleRegister}>
                     <input
                         placeholder="Nome"
-                        value={name}
+                        value={`Ingrid`}
                         onChange={e => setName(e.target.value)}
 
                     />
                     <input
                         type="email"
                         placeholder="E-mail"
-                        value={email}
+                        value={`ingrid@codenation.com`}
                         onChange={e => setEmail(e.target.value)}
                     />
                     <input
                         placeholder="Senha"
-                        value={password}
+                        value={`********`}
                         onChange={e => setPassword(e.target.value)}
                     />
 
                     <input
                         placeholder="Confirme a Senha"
-                        value={confirmPassword}
+                        value={`********`}
                         onChange={e => setConfirm(e.target.value)}
                     />
 

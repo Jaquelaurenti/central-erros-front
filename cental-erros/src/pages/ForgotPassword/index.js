@@ -48,7 +48,7 @@ export default function ForgotPassword() {
                     <input
                         type="email"
                         placeholder="E-mail"
-                        value={email}
+                        value={`esqueciasenha@email.com`}
                         onChange={e => setEmail(e.target.value)}
                     />
                     <button className="button" type="submit">Enviar</button>
